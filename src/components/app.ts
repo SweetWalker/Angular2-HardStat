@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core';
-import {DataService} from './riot-service';
-import {SummoreModel} from './models/summoner';
+import {DataService} from '../services/riot-service';
+import {SummoreModel} from '../models/summoner';
 
 @Component({
     selector: 'my-app',
